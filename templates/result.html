@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="result-bg">
+
+<div class="result-card">
+
+    <h1>Prediction Result</h1>
+
+    {% if prediction == 1 %}
+        <div class="status danger">
+            ❤️ Heart Disease Detected
+        </div>
+        <p class="subtitle">Please consult a doctor immediately for proper guidance.</p>
+    {% else %}
+        <div class="status safe">
+            ❤️ No Heart Disease Detected
+        </div>
+        <p class="subtitle">Keep up the healthy lifestyle and regular check-ups!</p>
+    {% endif %}
+
+    <div class="actions">
+        <a href="/predict" class="btn outline">Predict Again</a>
+        <a href="/logout" class="btn">Logout</a>
+    </div>
+</div>
+
+</body>
+</html>
