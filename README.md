@@ -93,20 +93,13 @@ http://127.0.0.1:5000/
 
 ---
 
-## Screenshots
-
-
----
 
 
 ## Author
 
-**Vimala**
+**Vanaparthi Vimala**
 B.Tech CSE (AI) Student
 GitHub: [https://github.com/Vimala17](https://github.com/Vimala17)
 
 ---
 
-## Support
-
-If you like this project, please ⭐ the repository and share it!
